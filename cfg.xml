@@ -3,8 +3,8 @@
   <ResourceConfigurations>
     <ResourceConfiguration>
       <Name>HP</Name>
-      <initialValue>6109</initialValue>
-      <maxValue>6550</maxValue>
+      <initialValue>100</initialValue>
+      <maxValue>100</maxValue>
       <autoRefill>0</autoRefill>
       <maxAutoRefill>0</maxAutoRefill>
       <refillMode>Linear</refillMode>
@@ -39,8 +39,8 @@
     </ResourceConfiguration>
     <ResourceConfiguration>
       <Name>ManaMelee</Name>
-      <initialValue>6968</initialValue>
-      <maxValue>7356</maxValue>
+      <initialValue>100</initialValue>
+      <maxValue>100</maxValue>
       <autoRefill>5</autoRefill>
       <maxAutoRefill>100</maxAutoRefill>
       <refillMode>Bursts</refillMode>
@@ -106,12 +106,9 @@
       <maxRestoreValue>1</maxRestoreValue>
     </RawPickupInfo>
   </RawPickupInfos>
-  <CODDrops>
-    <CODDrop>
-      <type>
-        <name>Melee</name>
-        <hideFlags>None</hideFlags>
-      </type>
+  <RawCODDrops>
+    <RawCODDrop>
+      <typePath>Assets/TDMP/Prefabs/DamageTypes/Melee.asset</typePath>
       <Drops>
         <Drop>
           <Pickup_ID>Dash Mana</Pickup_ID>
@@ -119,12 +116,9 @@
           <maxValue>5</maxValue>
         </Drop>
       </Drops>
-    </CODDrop>
-    <CODDrop>
-      <type>
-        <name>AR</name>
-        <hideFlags>None</hideFlags>
-      </type>
+    </RawCODDrop>
+    <RawCODDrop>
+      <typePath>Assets/TDMP/Prefabs/DamageTypes/AR.asset</typePath>
       <Drops>
         <Drop>
           <Pickup_ID>Shotgun Ammo</Pickup_ID>
@@ -132,12 +126,9 @@
           <maxValue>6</maxValue>
         </Drop>
       </Drops>
-    </CODDrop>
-    <CODDrop>
-      <type>
-        <name>Shotgun</name>
-        <hideFlags>None</hideFlags>
-      </type>
+    </RawCODDrop>
+    <RawCODDrop>
+      <typePath>Assets/TDMP/Prefabs/DamageTypes/Shotgun.asset</typePath>
       <Drops>
         <Drop>
           <Pickup_ID>AR Ammo</Pickup_ID>
@@ -145,12 +136,9 @@
           <maxValue>6</maxValue>
         </Drop>
       </Drops>
-    </CODDrop>
-    <CODDrop>
-      <type>
-        <name>Dash</name>
-        <hideFlags>None</hideFlags>
-      </type>
+    </RawCODDrop>
+    <RawCODDrop>
+      <typePath>Assets/TDMP/Prefabs/DamageTypes/Dash.asset</typePath>
       <Drops>
         <Drop>
           <Pickup_ID>HP</Pickup_ID>
@@ -168,8 +156,8 @@
           <maxValue>2</maxValue>
         </Drop>
       </Drops>
-    </CODDrop>
-  </CODDrops>
+    </RawCODDrop>
+  </RawCODDrops>
   <EnemyDropMultipliers>
     <EnemyDropMultiplier>
       <Name>Giant</Name>
