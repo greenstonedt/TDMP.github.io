@@ -21,8 +21,8 @@
     </ResourceConfiguration>
     <ResourceConfiguration>
       <Name>AmmoAR</Name>
-      <initialValue>100</initialValue>
-      <maxValue>100</maxValue>
+      <initialValue>10000</initialValue>
+      <maxValue>10000</maxValue>
       <autoRefill>0</autoRefill>
       <maxAutoRefill>0</maxAutoRefill>
       <refillMode>Linear</refillMode>
