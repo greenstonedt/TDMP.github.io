@@ -12,8 +12,8 @@
     </ResourceConfiguration>
     <ResourceConfiguration>
       <Name>Shield</Name>
-      <initialValue>100</initialValue>
-      <maxValue>100</maxValue>
+      <initialValue>10000</initialValue>
+      <maxValue>10000</maxValue>
       <autoRefill>0</autoRefill>
       <maxAutoRefill>0</maxAutoRefill>
       <refillMode>Linear</refillMode>
@@ -45,9 +45,9 @@
       <maxAutoRefill>100</maxAutoRefill>
       <refillMode>Bursts</refillMode>
       <ComsumingPhases>
-        <int>20</int>
-        <int>30</int>
-        <int>40</int>
+        <int>50</int>
+        <int>60</int>
+        <int>90</int>
       </ComsumingPhases>
     </ResourceConfiguration>
     <ResourceConfiguration>
@@ -66,49 +66,49 @@
     <RawPickupInfo>
       <ID>HP</ID>
       <type>HP</type>
-      <modelPath>Assets/TDMP/Prefabs/EnemyDropModel_Health.prefab</modelPath>
+      <modelPath>EnemyDropModel_Health</modelPath>
       <minRestoreValue>2</minRestoreValue>
       <maxRestoreValue>2</maxRestoreValue>
     </RawPickupInfo>
     <RawPickupInfo>
       <ID>Shield</ID>
       <type>Shield</type>
-      <modelPath>Assets/TDMP/Prefabs/EnemyDropModel_Shield.prefab</modelPath>
+      <modelPath>EnemyDropModel_Shield</modelPath>
       <minRestoreValue>2</minRestoreValue>
       <maxRestoreValue>2</maxRestoreValue>
     </RawPickupInfo>
     <RawPickupInfo>
       <ID>AR Ammo</ID>
       <type>AmmoAR</type>
-      <modelPath>Assets/TDMP/Prefabs/EnemyDropModel_AmmoAR.prefab</modelPath>
+      <modelPath>EnemyDropModel_AmmoAR</modelPath>
       <minRestoreValue>5</minRestoreValue>
       <maxRestoreValue>5</maxRestoreValue>
     </RawPickupInfo>
     <RawPickupInfo>
       <ID>Shotgun Ammo</ID>
       <type>AmmoShotgun</type>
-      <modelPath>Assets/TDMP/Prefabs/EnemyDropModel_AmmoShotgun.prefab</modelPath>
+      <modelPath>EnemyDropModel_AmmoShotgun</modelPath>
       <minRestoreValue>5</minRestoreValue>
       <maxRestoreValue>5</maxRestoreValue>
     </RawPickupInfo>
     <RawPickupInfo>
       <ID>Melee Mana</ID>
       <type>ManaMelee</type>
-      <modelPath>Assets/TDMP/Prefabs/EnemyDropModel_Melee.prefab</modelPath>
+      <modelPath>EnemyDropModel_Melee</modelPath>
       <minRestoreValue>3</minRestoreValue>
       <maxRestoreValue>3</maxRestoreValue>
     </RawPickupInfo>
     <RawPickupInfo>
       <ID>Dash Mana</ID>
       <type>ManaDash</type>
-      <modelPath>Assets/TDMP/Prefabs/EnemyDropModel_Dash.prefab</modelPath>
+      <modelPath>EnemyDropModel_Dash</modelPath>
       <minRestoreValue>1</minRestoreValue>
       <maxRestoreValue>1</maxRestoreValue>
     </RawPickupInfo>
   </RawPickupInfos>
   <RawCODDrops>
     <RawCODDrop>
-      <typePath>Assets/TDMP/Prefabs/DamageTypes/Melee.asset</typePath>
+      <typePath>DamageTypes/Melee</typePath>
       <Drops>
         <Drop>
           <Pickup_ID>Dash Mana</Pickup_ID>
@@ -118,7 +118,7 @@
       </Drops>
     </RawCODDrop>
     <RawCODDrop>
-      <typePath>Assets/TDMP/Prefabs/DamageTypes/AR.asset</typePath>
+      <typePath>DamageTypes/AR</typePath>
       <Drops>
         <Drop>
           <Pickup_ID>Shotgun Ammo</Pickup_ID>
@@ -128,7 +128,7 @@
       </Drops>
     </RawCODDrop>
     <RawCODDrop>
-      <typePath>Assets/TDMP/Prefabs/DamageTypes/Shotgun.asset</typePath>
+      <typePath>DamageTypes/Shotgun</typePath>
       <Drops>
         <Drop>
           <Pickup_ID>AR Ammo</Pickup_ID>
@@ -138,7 +138,7 @@
       </Drops>
     </RawCODDrop>
     <RawCODDrop>
-      <typePath>Assets/TDMP/Prefabs/DamageTypes/Dash.asset</typePath>
+      <typePath>DamageTypes/Dash</typePath>
       <Drops>
         <Drop>
           <Pickup_ID>HP</Pickup_ID>
