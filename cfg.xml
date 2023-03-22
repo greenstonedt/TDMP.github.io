@@ -13,7 +13,7 @@
     <ResourceConfiguration>
       <Name>Shield</Name>
       <initialValue>0</initialValue>
-      <maxValue>100</maxValue>
+      <maxValue>0</maxValue>
       <autoRefill>0</autoRefill>
       <maxAutoRefill>0</maxAutoRefill>
       <refillMode>Linear</refillMode>
@@ -112,19 +112,14 @@
       <Drops>
         <Drop>
           <Pickup_ID>HP</Pickup_ID>
-          <minValue>1</minValue>
-          <maxValue>3</maxValue>
-        </Drop>
-        <Drop>
-          <Pickup_ID>Dash Mana</Pickup_ID>
-          <minValue>5</minValue>
+          <minValue>2</minValue>
           <maxValue>5</maxValue>
         </Drop>
-      </Drops>
-    </RawCODDrop>
-    <RawCODDrop>
-      <typePath>DamageTypes/AR</typePath>
-      <Drops>
+        <Drop>
+          <Pickup_ID>AR Ammo</Pickup_ID>
+          <minValue>3</minValue>
+          <maxValue>5</maxValue>
+        </Drop>
         <Drop>
           <Pickup_ID>Shotgun Ammo</Pickup_ID>
           <minValue>3</minValue>
@@ -133,11 +128,31 @@
       </Drops>
     </RawCODDrop>
     <RawCODDrop>
+      <typePath>DamageTypes/AR</typePath>
+      <Drops>
+        <Drop>
+          <Pickup_ID>Dash Mana</Pickup_ID>
+          <minValue>5</minValue>
+          <maxValue>5</maxValue>
+        </Drop>
+        <Drop>
+          <Pickup_ID>Melee Mana</Pickup_ID>
+          <minValue>5</minValue>
+          <maxValue>5</maxValue>
+        </Drop>
+      </Drops>
+    </RawCODDrop>
+    <RawCODDrop>
       <typePath>DamageTypes/Shotgun</typePath>
       <Drops>
         <Drop>
-          <Pickup_ID>AR Ammo</Pickup_ID>
-          <minValue>3</minValue>
+          <Pickup_ID>Dash Mana</Pickup_ID>
+          <minValue>5</minValue>
+          <maxValue>5</maxValue>
+        </Drop>
+        <Drop>
+          <Pickup_ID>Melee Mana</Pickup_ID>
+          <minValue>5</minValue>
           <maxValue>5</maxValue>
         </Drop>
       </Drops>
@@ -146,14 +161,19 @@
       <typePath>DamageTypes/Dash</typePath>
       <Drops>
         <Drop>
-          <Pickup_ID>Melee Mana</Pickup_ID>
-          <minValue>5</minValue>
+          <Pickup_ID>HP</Pickup_ID>
+          <minValue>2</minValue>
           <maxValue>5</maxValue>
         </Drop>
         <Drop>
-          <Pickup_ID>Shield</Pickup_ID>
-          <minValue>1</minValue>
-          <maxValue>3</maxValue>
+          <Pickup_ID>AR Ammo</Pickup_ID>
+          <minValue>3</minValue>
+          <maxValue>5</maxValue>
+        </Drop>
+        <Drop>
+          <Pickup_ID>Shotgun Ammo</Pickup_ID>
+          <minValue>3</minValue>
+          <maxValue>5</maxValue>
         </Drop>
       </Drops>
     </RawCODDrop>
