@@ -1,0 +1,191 @@
+<?xml version="1.0"?>
+<SaveCFG xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ResourceConfigurations>
+    <ResourceConfiguration>
+      <Name>HP</Name>
+      <initialValue>100</initialValue>
+      <maxValue>100</maxValue>
+      <autoRefill>0</autoRefill>
+      <maxAutoRefill>0</maxAutoRefill>
+      <refillMode>Linear</refillMode>
+      <ComsumingPhases />
+    </ResourceConfiguration>
+    <ResourceConfiguration>
+      <Name>Shield</Name>
+      <initialValue>0</initialValue>
+      <maxValue>0</maxValue>
+      <autoRefill>0</autoRefill>
+      <maxAutoRefill>0</maxAutoRefill>
+      <refillMode>Linear</refillMode>
+      <ComsumingPhases />
+    </ResourceConfiguration>
+    <ResourceConfiguration>
+      <Name>AmmoAR</Name>
+      <initialValue>30</initialValue>
+      <maxValue>120</maxValue>
+      <autoRefill>0</autoRefill>
+      <maxAutoRefill>0</maxAutoRefill>
+      <refillMode>Linear</refillMode>
+      <ComsumingPhases />
+    </ResourceConfiguration>
+    <ResourceConfiguration>
+      <Name>AmmoShotgun</Name>
+      <initialValue>6</initialValue>
+      <maxValue>24</maxValue>
+      <autoRefill>0</autoRefill>
+      <maxAutoRefill>0</maxAutoRefill>
+      <refillMode>Linear</refillMode>
+      <ComsumingPhases />
+    </ResourceConfiguration>
+    <ResourceConfiguration>
+      <Name>ManaMelee</Name>
+      <initialValue>100</initialValue>
+      <maxValue>100</maxValue>
+      <autoRefill>2</autoRefill>
+      <maxAutoRefill>100</maxAutoRefill>
+      <refillMode>Linear</refillMode>
+      <ComsumingPhases>
+        <int>25</int>
+        <int>35</int>
+        <int>40</int>
+      </ComsumingPhases>
+    </ResourceConfiguration>
+    <ResourceConfiguration>
+      <Name>ManaDash</Name>
+      <initialValue>100</initialValue>
+      <maxValue>100</maxValue>
+      <autoRefill>5</autoRefill>
+      <maxAutoRefill>100</maxAutoRefill>
+      <refillMode>Linear</refillMode>
+      <ComsumingPhases>
+        <int>50</int>
+      </ComsumingPhases>
+    </ResourceConfiguration>
+  </ResourceConfigurations>
+  <RawPickupInfos>
+    <RawPickupInfo>
+      <ID>HP</ID>
+      <type>HP</type>
+      <modelPath>EnemyDropModel_Health</modelPath>
+      <minRestoreValue>1</minRestoreValue>
+      <maxRestoreValue>1</maxRestoreValue>
+    </RawPickupInfo>
+    <RawPickupInfo>
+      <ID>Shield</ID>
+      <type>Shield</type>
+      <modelPath>EnemyDropModel_Shield</modelPath>
+      <minRestoreValue>1</minRestoreValue>
+      <maxRestoreValue>1</maxRestoreValue>
+    </RawPickupInfo>
+    <RawPickupInfo>
+      <ID>AR Ammo</ID>
+      <type>AmmoAR</type>
+      <modelPath>EnemyDropModel_AmmoAR</modelPath>
+      <minRestoreValue>1</minRestoreValue>
+      <maxRestoreValue>1</maxRestoreValue>
+    </RawPickupInfo>
+    <RawPickupInfo>
+      <ID>Shotgun Ammo</ID>
+      <type>AmmoShotgun</type>
+      <modelPath>EnemyDropModel_AmmoShotgun</modelPath>
+      <minRestoreValue>1</minRestoreValue>
+      <maxRestoreValue>1</maxRestoreValue>
+    </RawPickupInfo>
+    <RawPickupInfo>
+      <ID>Melee Mana</ID>
+      <type>ManaMelee</type>
+      <modelPath>EnemyDropModel_Melee</modelPath>
+      <minRestoreValue>1</minRestoreValue>
+      <maxRestoreValue>1</maxRestoreValue>
+    </RawPickupInfo>
+    <RawPickupInfo>
+      <ID>Dash Mana</ID>
+      <type>ManaDash</type>
+      <modelPath>EnemyDropModel_Dash</modelPath>
+      <minRestoreValue>1</minRestoreValue>
+      <maxRestoreValue>1</maxRestoreValue>
+    </RawPickupInfo>
+  </RawPickupInfos>
+  <RawCODDrops>
+    <RawCODDrop>
+      <typePath>DamageTypes/Melee</typePath>
+      <Drops>
+        <Drop>
+          <Pickup_ID>HP</Pickup_ID>
+          <minValue>0</minValue>
+          <maxValue>0</maxValue>
+        </Drop>
+        <Drop>
+          <Pickup_ID>AR Ammo</Pickup_ID>
+          <minValue>3</minValue>
+          <maxValue>5</maxValue>
+        </Drop>
+        <Drop>
+          <Pickup_ID>Shotgun Ammo</Pickup_ID>
+          <minValue>3</minValue>
+          <maxValue>5</maxValue>
+        </Drop>
+      </Drops>
+    </RawCODDrop>
+    <RawCODDrop>
+      <typePath>DamageTypes/AR</typePath>
+      <Drops>
+        <Drop>
+          <Pickup_ID>Dash Mana</Pickup_ID>
+          <minValue>5</minValue>
+          <maxValue>5</maxValue>
+        </Drop>
+        <Drop>
+          <Pickup_ID>Melee Mana</Pickup_ID>
+          <minValue>5</minValue>
+          <maxValue>5</maxValue>
+        </Drop>
+      </Drops>
+    </RawCODDrop>
+    <RawCODDrop>
+      <typePath>DamageTypes/Shotgun</typePath>
+      <Drops>
+        <Drop>
+          <Pickup_ID>Dash Mana</Pickup_ID>
+          <minValue>5</minValue>
+          <maxValue>5</maxValue>
+        </Drop>
+        <Drop>
+          <Pickup_ID>Melee Mana</Pickup_ID>
+          <minValue>5</minValue>
+          <maxValue>5</maxValue>
+        </Drop>
+      </Drops>
+    </RawCODDrop>
+    <RawCODDrop>
+      <typePath>DamageTypes/Dash</typePath>
+      <Drops>
+        <Drop>
+          <Pickup_ID>Shield</Pickup_ID>
+          <minValue>0</minValue>
+          <maxValue>0</maxValue>
+        </Drop>
+        <Drop>
+          <Pickup_ID>AR Ammo</Pickup_ID>
+          <minValue>3</minValue>
+          <maxValue>5</maxValue>
+        </Drop>
+        <Drop>
+          <Pickup_ID>Shotgun Ammo</Pickup_ID>
+          <minValue>3</minValue>
+          <maxValue>5</maxValue>
+        </Drop>
+      </Drops>
+    </RawCODDrop>
+  </RawCODDrops>
+  <EnemyDropMultipliers>
+    <EnemyDropMultiplier>
+      <Name>Giant</Name>
+      <Multiplier>3.5</Multiplier>
+    </EnemyDropMultiplier>
+    <EnemyDropMultiplier>
+      <Name>Bad Dog</Name>
+      <Multiplier>0.5</Multiplier>
+    </EnemyDropMultiplier>
+  </EnemyDropMultipliers>
+</SaveCFG>
