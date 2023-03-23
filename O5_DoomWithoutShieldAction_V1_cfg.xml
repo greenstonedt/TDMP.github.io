@@ -13,7 +13,7 @@
     <ResourceConfiguration>
       <Name>Shield</Name>
       <initialValue>0</initialValue>
-      <maxValue>0</maxValue>
+      <maxValue>100</maxValue>
       <autoRefill>0</autoRefill>
       <maxAutoRefill>0</maxAutoRefill>
       <refillMode>Linear</refillMode>
@@ -157,12 +157,12 @@
         </Drop>
         <Drop>
           <Pickup_ID>AR Ammo</Pickup_ID>
-          <minValue>1</minValue>
-          <maxValue>3</maxValue>
+          <minValue>2</minValue>
+          <maxValue>4</maxValue>
         </Drop>
         <Drop>
           <Pickup_ID>Shotgun Ammo</Pickup_ID>
-          <minValue>1</minValue>
+          <minValue>2</minValue>
           <maxValue>3</maxValue>
         </Drop>
       </Drops>
