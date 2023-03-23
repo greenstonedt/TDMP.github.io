@@ -41,20 +41,20 @@
       <Name>ManaMelee</Name>
       <initialValue>100</initialValue>
       <maxValue>100</maxValue>
-      <autoRefill>2</autoRefill>
+      <autoRefill>5</autoRefill>
       <maxAutoRefill>100</maxAutoRefill>
       <refillMode>Linear</refillMode>
       <ComsumingPhases>
-        <int>25</int>
-        <int>35</int>
-        <int>40</int>
+        <int>20</int>
+        <int>30</int>
+        <int>50</int>
       </ComsumingPhases>
     </ResourceConfiguration>
     <ResourceConfiguration>
       <Name>ManaDash</Name>
       <initialValue>100</initialValue>
       <maxValue>100</maxValue>
-      <autoRefill>5</autoRefill>
+      <autoRefill>10</autoRefill>
       <maxAutoRefill>100</maxAutoRefill>
       <refillMode>Linear</refillMode>
       <ComsumingPhases>
@@ -112,18 +112,8 @@
       <Drops>
         <Drop>
           <Pickup_ID>HP</Pickup_ID>
-          <minValue>2</minValue>
-          <maxValue>5</maxValue>
-        </Drop>
-        <Drop>
-          <Pickup_ID>AR Ammo</Pickup_ID>
-          <minValue>3</minValue>
-          <maxValue>5</maxValue>
-        </Drop>
-        <Drop>
-          <Pickup_ID>Shotgun Ammo</Pickup_ID>
-          <minValue>3</minValue>
-          <maxValue>5</maxValue>
+          <minValue>5</minValue>
+          <maxValue>7</maxValue>
         </Drop>
       </Drops>
     </RawCODDrop>
@@ -132,13 +122,13 @@
       <Drops>
         <Drop>
           <Pickup_ID>Dash Mana</Pickup_ID>
-          <minValue>5</minValue>
-          <maxValue>5</maxValue>
+          <minValue>0</minValue>
+          <maxValue>0</maxValue>
         </Drop>
         <Drop>
           <Pickup_ID>Melee Mana</Pickup_ID>
-          <minValue>5</minValue>
-          <maxValue>5</maxValue>
+          <minValue>0</minValue>
+          <maxValue>0</maxValue>
         </Drop>
       </Drops>
     </RawCODDrop>
@@ -147,13 +137,13 @@
       <Drops>
         <Drop>
           <Pickup_ID>Dash Mana</Pickup_ID>
-          <minValue>5</minValue>
-          <maxValue>5</maxValue>
+          <minValue>0</minValue>
+          <maxValue>0</maxValue>
         </Drop>
         <Drop>
           <Pickup_ID>Melee Mana</Pickup_ID>
-          <minValue>5</minValue>
-          <maxValue>5</maxValue>
+          <minValue>0</minValue>
+          <maxValue>0</maxValue>
         </Drop>
       </Drops>
     </RawCODDrop>
@@ -162,18 +152,18 @@
       <Drops>
         <Drop>
           <Pickup_ID>HP</Pickup_ID>
-          <minValue>2</minValue>
-          <maxValue>5</maxValue>
+          <minValue>0</minValue>
+          <maxValue>0</maxValue>
         </Drop>
         <Drop>
           <Pickup_ID>AR Ammo</Pickup_ID>
-          <minValue>3</minValue>
-          <maxValue>5</maxValue>
+          <minValue>1</minValue>
+          <maxValue>3</maxValue>
         </Drop>
         <Drop>
           <Pickup_ID>Shotgun Ammo</Pickup_ID>
-          <minValue>3</minValue>
-          <maxValue>5</maxValue>
+          <minValue>1</minValue>
+          <maxValue>3</maxValue>
         </Drop>
       </Drops>
     </RawCODDrop>
