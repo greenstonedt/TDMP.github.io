@@ -112,7 +112,17 @@
       <Drops>
         <Drop>
           <Pickup_ID>HP</Pickup_ID>
-          <minValue>7</minValue>
+          <minValue>0</minValue>
+          <maxValue>0</maxValue>
+        </Drop>
+        <Drop>
+          <Pickup_ID>AR Ammo</Pickup_ID>
+          <minValue>4</minValue>
+          <maxValue>6</maxValue>
+        </Drop>
+        <Drop>
+          <Pickup_ID>Shotgun Ammo </Pickup_ID>
+          <minValue>4</minValue>
           <maxValue>10</maxValue>
         </Drop>
       </Drops>
@@ -152,18 +162,18 @@
       <Drops>
         <Drop>
           <Pickup_ID>HP</Pickup_ID>
+          <minValue>7</minValue>
+          <maxValue>10</maxValue>
+        </Drop>
+        <Drop>
+          <Pickup_ID>AR Ammo</Pickup_ID>
           <minValue>0</minValue>
           <maxValue>0</maxValue>
         </Drop>
         <Drop>
-          <Pickup_ID>AR Ammo</Pickup_ID>
-          <minValue>4</minValue>
-          <maxValue>6</maxValue>
-        </Drop>
-        <Drop>
           <Pickup_ID>Shotgun Ammo</Pickup_ID>
-          <minValue>4</minValue>
-          <maxValue>6</maxValue>
+          <minValue>0</minValue>
+          <maxValue>0</maxValue>
         </Drop>
       </Drops>
     </RawCODDrop>
