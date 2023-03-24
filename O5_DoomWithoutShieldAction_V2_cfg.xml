@@ -171,11 +171,19 @@
   <EnemyDropMultipliers>
     <EnemyDropMultiplier>
       <Name>Giant</Name>
-      <Multiplier>3.5</Multiplier>
+      <Multiplier>3</Multiplier>
     </EnemyDropMultiplier>
     <EnemyDropMultiplier>
       <Name>Bad Dog</Name>
-      <Multiplier>0.5</Multiplier>
+      <Multiplier>0.8</Multiplier>
+    </EnemyDropMultiplier>
+    <EnemyDropMultiplier>
+      <Name>Assassin</Name>
+      <Multiplier>1</Multiplier>
+    </EnemyDropMultiplier>
+    <EnemyDropMultiplier>
+      <Name>Ranged</Name>
+      <Multiplier>1.2</Multiplier>
     </EnemyDropMultiplier>
   </EnemyDropMultipliers>
 </SaveCFG>
