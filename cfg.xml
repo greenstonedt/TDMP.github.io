@@ -13,7 +13,7 @@
     <ResourceConfiguration>
       <Name>Shield</Name>
       <initialValue>0</initialValue>
-      <maxValue>100</maxValue>
+      <maxValue>0</maxValue>
       <autoRefill>0</autoRefill>
       <maxAutoRefill>0</maxAutoRefill>
       <refillMode>Linear</refillMode>
@@ -21,7 +21,7 @@
     </ResourceConfiguration>
     <ResourceConfiguration>
       <Name>AmmoAR</Name>
-      <initialValue>30</initialValue>
+      <initialValue>60</initialValue>
       <maxValue>120</maxValue>
       <autoRefill>0</autoRefill>
       <maxAutoRefill>0</maxAutoRefill>
@@ -30,7 +30,7 @@
     </ResourceConfiguration>
     <ResourceConfiguration>
       <Name>AmmoShotgun</Name>
-      <initialValue>6</initialValue>
+      <initialValue>12</initialValue>
       <maxValue>24</maxValue>
       <autoRefill>0</autoRefill>
       <maxAutoRefill>0</maxAutoRefill>
@@ -39,15 +39,15 @@
     </ResourceConfiguration>
     <ResourceConfiguration>
       <Name>ManaMelee</Name>
-      <initialValue>100</initialValue>
-      <maxValue>100</maxValue>
-      <autoRefill>5</autoRefill>
+      <initialValue>90</initialValue>
+      <maxValue>90</maxValue>
+      <autoRefill>10</autoRefill>
       <maxAutoRefill>100</maxAutoRefill>
       <refillMode>Linear</refillMode>
       <ComsumingPhases>
-        <int>20</int>
         <int>30</int>
-        <int>50</int>
+        <int>30</int>
+        <int>30</int>
       </ComsumingPhases>
     </ResourceConfiguration>
     <ResourceConfiguration>
@@ -112,8 +112,8 @@
       <Drops>
         <Drop>
           <Pickup_ID>HP</Pickup_ID>
-          <minValue>5</minValue>
-          <maxValue>7</maxValue>
+          <minValue>7</minValue>
+          <maxValue>10</maxValue>
         </Drop>
       </Drops>
     </RawCODDrop>
@@ -157,13 +157,13 @@
         </Drop>
         <Drop>
           <Pickup_ID>AR Ammo</Pickup_ID>
-          <minValue>2</minValue>
-          <maxValue>4</maxValue>
+          <minValue>4</minValue>
+          <maxValue>6</maxValue>
         </Drop>
         <Drop>
           <Pickup_ID>Shotgun Ammo</Pickup_ID>
-          <minValue>2</minValue>
-          <maxValue>3</maxValue>
+          <minValue>4</minValue>
+          <maxValue>6</maxValue>
         </Drop>
       </Drops>
     </RawCODDrop>
