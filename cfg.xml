@@ -45,9 +45,9 @@
       <maxAutoRefill>100</maxAutoRefill>
       <refillMode>Linear</refillMode>
       <ComsumingPhases>
-        <int>30</int>
-        <int>30</int>
-        <int>30</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
       </ComsumingPhases>
     </ResourceConfiguration>
     <ResourceConfiguration>
@@ -123,6 +123,11 @@
         <Drop>
           <Pickup_ID>Shotgun Ammo </Pickup_ID>
           <minValue>4</minValue>
+          <maxValue>6</maxValue>
+        </Drop>
+        <Drop>
+          <Pickup_ID>Shield</Pickup_ID>
+          <minValue>5</minValue>
           <maxValue>10</maxValue>
         </Drop>
       </Drops>
@@ -175,6 +180,11 @@
           <minValue>0</minValue>
           <maxValue>0</maxValue>
         </Drop>
+        <Drop>
+          <Pickup_ID>Shield</Pickup_ID>
+          <minValue>5</minValue>
+          <maxValue>10</maxValue>
+        </Drop>
       </Drops>
     </RawCODDrop>
   </RawCODDrops>
@@ -182,18 +192,50 @@
     <EnemyDropMultiplier>
       <Name>Giant</Name>
       <Multiplier>3</Multiplier>
+      <TypedMultipliers>
+        <TypedDropMultiplierItems>
+          <type>Shield</type>
+          <value>1</value>
+        </TypedDropMultiplierItems>
+      </TypedMultipliers>
     </EnemyDropMultiplier>
     <EnemyDropMultiplier>
       <Name>Bad Dog</Name>
       <Multiplier>0.8</Multiplier>
+      <TypedMultipliers>
+        <TypedDropMultiplierItems>
+          <type>Shield</type>
+          <value>0</value>
+        </TypedDropMultiplierItems>
+      </TypedMultipliers>
     </EnemyDropMultiplier>
     <EnemyDropMultiplier>
       <Name>Assassin</Name>
       <Multiplier>1</Multiplier>
+      <TypedMultipliers>
+        <TypedDropMultiplierItems>
+          <type>Shield</type>
+          <value>0</value>
+        </TypedDropMultiplierItems>
+      </TypedMultipliers>
     </EnemyDropMultiplier>
     <EnemyDropMultiplier>
       <Name>Ranged</Name>
-      <Multiplier>1.2</Multiplier>
+      <Multiplier>1</Multiplier>
+      <TypedMultipliers>
+        <TypedDropMultiplierItems>
+          <type>Shield</type>
+          <value>0</value>
+        </TypedDropMultiplierItems>
+        <TypedDropMultiplierItems>
+          <type>AmmoAR</type>
+          <value>1.5</value>
+        </TypedDropMultiplierItems>
+        <TypedDropMultiplierItems>
+          <type>AmmoShotgun</type>
+          <value>1.5</value>
+        </TypedDropMultiplierItems>
+      </TypedMultipliers>
     </EnemyDropMultiplier>
   </EnemyDropMultipliers>
 </SaveCFG>
