@@ -3,8 +3,8 @@
   <ResourceConfigurations>
     <ResourceConfiguration>
       <Name>HP</Name>
-      <initialValue>100</initialValue>
-      <maxValue>100</maxValue>
+      <initialValue>200</initialValue>
+      <maxValue>200</maxValue>
       <autoRefill>0</autoRefill>
       <maxAutoRefill>0</maxAutoRefill>
       <refillMode>Linear</refillMode>
@@ -117,18 +117,18 @@
         </Drop>
         <Drop>
           <Pickup_ID>AR Ammo</Pickup_ID>
-          <minValue>4</minValue>
-          <maxValue>6</maxValue>
+          <minValue>8</minValue>
+          <maxValue>12</maxValue>
         </Drop>
         <Drop>
           <Pickup_ID>Shotgun Ammo </Pickup_ID>
-          <minValue>4</minValue>
-          <maxValue>6</maxValue>
+          <minValue>8</minValue>
+          <maxValue>12</maxValue>
         </Drop>
         <Drop>
           <Pickup_ID>Shield</Pickup_ID>
-          <minValue>5</minValue>
-          <maxValue>10</maxValue>
+          <minValue>10</minValue>
+          <maxValue>20</maxValue>
         </Drop>
       </Drops>
     </RawCODDrop>
@@ -167,8 +167,8 @@
       <Drops>
         <Drop>
           <Pickup_ID>HP</Pickup_ID>
-          <minValue>7</minValue>
-          <maxValue>10</maxValue>
+          <minValue>14</minValue>
+          <maxValue>20</maxValue>
         </Drop>
         <Drop>
           <Pickup_ID>AR Ammo</Pickup_ID>
@@ -182,8 +182,8 @@
         </Drop>
         <Drop>
           <Pickup_ID>Shield</Pickup_ID>
-          <minValue>5</minValue>
-          <maxValue>10</maxValue>
+          <minValue>10</minValue>
+          <maxValue>20</maxValue>
         </Drop>
       </Drops>
     </RawCODDrop>
