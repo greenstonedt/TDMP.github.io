@@ -42,11 +42,11 @@
       <initialValue>90</initialValue>
       <maxValue>90</maxValue>
       <autoRefill>10</autoRefill>
-      <maxAutoRefill>100</maxAutoRefill>
+      <maxAutoRefill>90</maxAutoRefill>
       <refillMode>Linear</refillMode>
       <ComsumingPhases>
-        <int>0</int>
-        <int>0</int>
+        <int>30</int>
+        <int>30</int>
         <int>0</int>
       </ComsumingPhases>
     </ResourceConfiguration>
