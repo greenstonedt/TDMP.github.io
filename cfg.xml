@@ -3,8 +3,8 @@
   <ResourceConfigurations>
     <ResourceConfiguration>
       <Name>HP</Name>
-      <initialValue>200</initialValue>
-      <maxValue>200</maxValue>
+      <initialValue>100</initialValue>
+      <maxValue>100</maxValue>
       <autoRefill>0</autoRefill>
       <maxAutoRefill>0</maxAutoRefill>
       <refillMode>Linear</refillMode>
@@ -13,7 +13,7 @@
     <ResourceConfiguration>
       <Name>Shield</Name>
       <initialValue>0</initialValue>
-      <maxValue>0</maxValue>
+      <maxValue>100</maxValue>
       <autoRefill>0</autoRefill>
       <maxAutoRefill>0</maxAutoRefill>
       <refillMode>Linear</refillMode>
@@ -47,7 +47,7 @@
       <ComsumingPhases>
         <int>30</int>
         <int>30</int>
-        <int>0</int>
+        <int>30</int>
       </ComsumingPhases>
     </ResourceConfiguration>
     <ResourceConfiguration>
@@ -67,15 +67,15 @@
       <ID>HP</ID>
       <type>HP</type>
       <modelPath>EnemyDropModel_Health</modelPath>
-      <minRestoreValue>1</minRestoreValue>
-      <maxRestoreValue>1</maxRestoreValue>
+      <minRestoreValue>5</minRestoreValue>
+      <maxRestoreValue>5</maxRestoreValue>
     </RawPickupInfo>
     <RawPickupInfo>
       <ID>Shield</ID>
       <type>Shield</type>
       <modelPath>EnemyDropModel_Shield</modelPath>
-      <minRestoreValue>1</minRestoreValue>
-      <maxRestoreValue>1</maxRestoreValue>
+      <minRestoreValue>2</minRestoreValue>
+      <maxRestoreValue>2</maxRestoreValue>
     </RawPickupInfo>
     <RawPickupInfo>
       <ID>AR Ammo</ID>
