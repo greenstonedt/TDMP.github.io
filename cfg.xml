@@ -67,8 +67,8 @@
       <ID>HP</ID>
       <type>HP</type>
       <modelPath>EnemyDropModel_Health</modelPath>
-      <minRestoreValue>5</minRestoreValue>
-      <maxRestoreValue>5</maxRestoreValue>
+      <minRestoreValue>1</minRestoreValue>
+      <maxRestoreValue>1</maxRestoreValue>
     </RawPickupInfo>
     <RawPickupInfo>
       <ID>Shield</ID>
@@ -117,12 +117,12 @@
         </Drop>
         <Drop>
           <Pickup_ID>AR Ammo</Pickup_ID>
-          <minValue>8</minValue>
-          <maxValue>12</maxValue>
+          <minValue>6</minValue>
+          <maxValue>8</maxValue>
         </Drop>
         <Drop>
           <Pickup_ID>Shotgun Ammo</Pickup_ID>
-          <minValue>8</minValue>
+          <minValue>2</minValue>
           <maxValue>12</maxValue>
         </Drop>
         <Drop>
