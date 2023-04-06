@@ -121,7 +121,7 @@
           <maxValue>12</maxValue>
         </Drop>
         <Drop>
-          <Pickup_ID>Shotgun Ammo </Pickup_ID>
+          <Pickup_ID>Shotgun Ammo</Pickup_ID>
           <minValue>8</minValue>
           <maxValue>12</maxValue>
         </Drop>
