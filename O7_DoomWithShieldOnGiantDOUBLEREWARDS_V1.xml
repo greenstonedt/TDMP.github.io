@@ -45,7 +45,7 @@
       <maxAutoRefill>90</maxAutoRefill>
       <refillMode>Linear</refillMode>
       <ComsumingPhases>
-        <int>0</int>
+        <int>30</int>
         <int>0</int>
         <int>0</int>
       </ComsumingPhases>
