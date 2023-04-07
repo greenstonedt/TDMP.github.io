@@ -45,9 +45,9 @@
       <maxAutoRefill>90</maxAutoRefill>
       <refillMode>Linear</refillMode>
       <ComsumingPhases>
-        <int>30</int>
-        <int>30</int>
-        <int>30</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
       </ComsumingPhases>
     </ResourceConfiguration>
     <ResourceConfiguration>
@@ -67,8 +67,8 @@
       <ID>HP</ID>
       <type>HP</type>
       <modelPath>EnemyDropModel_Health</modelPath>
-      <minRestoreValue>1</minRestoreValue>
-      <maxRestoreValue>1</maxRestoreValue>
+      <minRestoreValue>2</minRestoreValue>
+      <maxRestoreValue>2</maxRestoreValue>
     </RawPickupInfo>
     <RawPickupInfo>
       <ID>Shield</ID>
@@ -117,13 +117,13 @@
         </Drop>
         <Drop>
           <Pickup_ID>AR Ammo</Pickup_ID>
-          <minValue>6</minValue>
-          <maxValue>8</maxValue>
+          <minValue>4</minValue>
+          <maxValue>6</maxValue>
         </Drop>
         <Drop>
           <Pickup_ID>Shotgun Ammo</Pickup_ID>
-          <minValue>2</minValue>
-          <maxValue>12</maxValue>
+          <minValue>1</minValue>
+          <maxValue>3</maxValue>
         </Drop>
         <Drop>
           <Pickup_ID>Shield</Pickup_ID>
@@ -229,11 +229,11 @@
         </TypedDropMultiplierItems>
         <TypedDropMultiplierItems>
           <type>AmmoAR</type>
-          <value>1.5</value>
+          <value>1.2</value>
         </TypedDropMultiplierItems>
         <TypedDropMultiplierItems>
           <type>AmmoShotgun</type>
-          <value>1.5</value>
+          <value>1.2</value>
         </TypedDropMultiplierItems>
       </TypedMultipliers>
     </EnemyDropMultiplier>
