@@ -3,8 +3,8 @@
   <ResourceConfigurations>
     <ResourceConfiguration>
       <Name>HP</Name>
-      <initialValue>100</initialValue>
-      <maxValue>100</maxValue>
+      <initialValue>1000000</initialValue>
+      <maxValue>1000000</maxValue>
       <lowThreshold>0</lowThreshold>
       <autoRefill>0</autoRefill>
       <maxAutoRefill>0</maxAutoRefill>
